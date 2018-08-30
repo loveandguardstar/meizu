@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>魅族官网</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+
+	<body style="background-color: #F4F4F4;">
+		<!--标题栏-start-->
+		<div class="title">
+			<div class="title1">
+				<!--左侧标题栏-start-->
+				<div class="title1-left">
+					<ul>
+						<li>
+							<a href="#">商城</a>
+						</li>
+						<li>
+							<a href="#">魅族</a>
+						</li>
+						<li>
+							<a href="#">魅蓝</a>
+						</li>
+						<li>
+							<a href="#">Flyme</a>
+						</li>
+						<li>
+							<a href="#">云服务</a>
+						</li>
+						<li>
+							<a href="#">专卖店</a>
+						</li>
+						<li>
+							<a href="#">服务支持</a>
+						</li>
+						<li>
+							<a href="#">社区</a>
+						</li>
+					</ul>
+				</div>
+				<!--左侧标题栏-end-->
+				<!--右侧标题栏-start-->
+				<div class="title1-right">
+					<a href="#">Select Region</a>
+					<a href="#" class="appdownload">APP下载</a>
+				</div>
+				<!--右侧标题栏-end-->
+			</div>
+		</div>
+		<!--标题栏-end-->
+		<div class="head">
+			<div class="title2">
+				<!--LOGO-start-->
+				<img src="img/logo.png" class="title2-logo" />
+				<!--LOGO-end-->
+				<!--购物车-start-->
+				<div class="cart">
+					<a href="#"><em>0</em></a>
+				</div>
+				<!--购物车-end-->
+				<!--用户-start-->
+				<div class="user">
+					<div id="userselect">
+						<ul>
+							<li>
+								<a href="#">立即登录</a>
+							</li>
+							<li>
+								<a href="#">立即注册</a>
+							</li>
+							<li>
+								<a href="#">我的订单</a>
+							</li>
+							<li>
+								<a href="#">M码通道</a>
+							</li>
+						</ul>
+					</div>
+					<div id="userimg">
+						<a href="#"><img src="img/user.jpg" /></a>
+					</div>
+				</div>
+				<!--用户-end-->
+				<!--搜索框-start-->
+				<div class="search">
+					<input type="text" class="form-control" placeholder="魅族">
+				</div>
+				<!--搜索框-end-->
+				<!--标题导航栏-start-->
+				<div id="cy-ul">
+					<ul>
+						<li class="title2-li">
+							<a href="#">魅族手机</a>
+						</li>
+						<li class="title2-li">
+							<a href="#">魅蓝手机</a>
+						</li>
+						<li class="title2-li">
+							<a href="#">魅族声学</a>
+						</li>
+						<li class="title2-li">
+							<a href="#">智能·配件</a>
+						</li>
+						<li class="title2-li">
+							<a href="#">生活周边</a>
+						</li>
+					</ul>
+				</div>
+				<!--标题导航栏-end-->
+				<div class="ycbody">
+					<div class="ycbody-bg">
+						<div class="ycbody-main">
+							<ul id="ycbody-ul">
+								<li>
+									<a href="#" style="background-image: url(img/ycimg/ycimg1.png);">
+										魅族 15
+										<span>
+												<i>￥</i>2499<em> 起</em>
+											</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" style="background-image: url(img/ycimg/ycimg2.png);">
+										魅族 15 Plus
+										<span>
+												<i>￥</i>2999<em> 起</em>
+											</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" style="background-image: url(img/ycimg/ycimg3.png);">
+										魅族 M15
+										<span>
+												<i>￥</i>1699<em> 起</em>
+											</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" style="background-image: url(img/ycimg/ycimg4.png);">
+										魅蓝 E3
+										<span>
+												<i>￥</i>1799<em> 起</em>
+											</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" style="background-image: url(img/ycimg/ycimg5.png);">
+										PRO 7 Plus
+										<span>
+												<i>￥</i>2799<em> 起</em>
+											</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" style="background-image: url(img/ycimg/ycimg6.png);">
+										魅蓝 S6
+										<span>
+												<i>￥</i>999<em> 起</em>
+											</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--轮播图-start-->
+		<div id="recommend" class="carousel slide">
+			<!--轮播角标设置-start-->
+			<ol class="carousel-indicators">
+				<li data-target="#recommend" data-slide-to="0" class="active"></li>
+				<li data-target="#recommend" data-slide-to="1"></li>
+				<li data-target="#recommend" data-slide-to="2"></li>
+				<li data-target="#recommend" data-slide-to="3"></li>
+				<li data-target="#recommend" data-slide-to="4"></li>
+				<li data-target="#recommend" data-slide-to="5"></li>
+			</ol>
+			<!--轮播角标设置-end-->
+			<!--轮播图片设置-start-->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="img/lunbo/lunbo-1.jpg">
+				</div>
+				<div class="item">
+					<img src="img/lunbo/lunbo-2.jpg">
+				</div>
+				<div class="item">
+					<img src="img/lunbo/lunbo-3.jpg">
+				</div>
+				<div class="item">
+					<img src="img/lunbo/lunbo-4.jpg">
+				</div>
+				<div class="item">
+					<img src="img/lunbo/lunbo-5.jpg">
+				</div>
+				<div class="item">
+					<img src="img/lunbo/lunbo-6.jpg">
+				</div>
+			</div>
+			<!--轮播图片设置-end-->
+			<!--导航-start-->
+			<div class="bg"></div>
+			<div class="bg-text">
+				<ul>
+					<li>
+						<a href="#" class="lunbo-title">手机</a>
+					</li>
+					<li>
+						<a href="#" class="lunbo-title">智能设备</a>
+					</li>
+					<li>
+						<a href="#" class="lunbo-title">智能穿戴</a>
+					</li>
+					<li>
+						<a href="#" class="lunbo-title">游戏设备</a>
+					</li>
+					<li>
+						<a href="#" class="lunbo-title">数码影音</a>
+					</li>
+					<li>
+						<a href="#" class="lunbo-title">手机配件 / 移动电源</a>
+					</li>
+					<li>
+						<a href="#" class="lunbo-title">移动存储 / 办公设备</a>
+					</li>
+					<li>
+						<a href="#" class="lunbo-title">生活周边</a>
+					</li>
+				</ul>
+			</div>
+			<!--导航-end-->
+		</div>
+		<!--轮播图-end-->
+		<!--主内容-start-->
+		<div class="main">
+			<div class="activity">
+				<ul>
+					<li>
+						<a href="#"><img src="img/huodong/huodong1.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/huodong/huodong2.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/huodong/huodong3.jpg" /></a>
+					</li>
+					<li style="margin-right: 0;">
+						<a href="#"><img src="img/huodong/huodong4.jpg" /></a>
+					</li>
+				</ul>
+			</div>
+			<!--热卖产品-start-->
+			<div class="bestsellers">
+				<!--热卖标题-start-->
+				<div class="bestsellers-title">
+					<h3>热卖产品</h3>
+				</div>
+				<!--热卖标题-end-->
+				<!--热卖list-start-->
+				<ul>
+					<li>
+						<!--商品图片-start-->
+						<div class="bestsellers-img">
+							<a href="#"><img src="img/bestsellers/bestsellers1.png"></a>
+						</div>
+						<!--商品图片-end-->
+						<!--商品信息-start-->
+						<div class="bestsellers-info">
+							<!--商品名称-->
+							<p class="bestsellers-name">魅族 PRO 7</p>
+							<!--商品介绍-->
+							<p class="bestsellers-desc">领券立减100 赠EP2X耳机</p>
+							<!--商品价格-->
+							<p class="bestsellers-price">
+								<i>￥</i>1999<em> 起</em>
+							</p>
+						</div>
+						<!--商品信息-end-->
+					</li>
+					<li>
+						<div class="bestsellers-img">
+							<a href="#"><img src="img/bestsellers/bestsellers2.png"></a>
+						</div>
+						<div class="bestsellers-info">
+							<p class="bestsellers-name">魅蓝 6</p>
+							<p class="bestsellers-desc">全系直降100元 享3期免息</p>
+							<p class="bestsellers-price">
+								<i>￥</i>599<em> 起</em>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="bestsellers-img">
+							<a href="#"><img src="img/bestsellers/bestsellers3.png"></a>
+						</div>
+						<div class="bestsellers-info">
+							<p class="bestsellers-name">魅蓝 Note6</p>
+							<p class="bestsellers-desc">最高直降200元 享3期免息</p>
+							<p class="bestsellers-price">
+								<i>￥</i>799<em> 起</em>
+							</p>
+						</div>
+					</li>
+					<li style="margin-right: 0;">
+						<div class="bestsellers-img">
+							<a href="#"><img src="img/bestsellers/bestsellers4.png"></a>
+						</div>
+						<div class="bestsellers-info">
+							<p class="bestsellers-name">魅族 EP2X耳机</p>
+							<p class="bestsellers-desc">契合声音的流动之美</p>
+							<p class="bestsellers-price">
+								<i>￥</i>69<em> 起</em>
+								<p>
+						</div>
+					</li>
+				</ul>
+				<!--热卖list-end-->
+			</div>
+			<!--热卖产品-end-->
+			<!--手机-start-->
+			<div class="phone">
+				<!--手机标题-start-->
+				<div class="phone-title">
+					<h3>手机</h3>
+				</div>
+				<!--手机标题-end-->
+				<!--手机logo-start-->
+				<div class="phone-logo">
+					<!--手机logo左侧-start-->
+					<div class="phone-logo-left">
+						<img src="img/phone/phone1.jpg" />
+					</div>
+					<!--手机logo左侧-end-->
+					<!--手机logo右侧-start-->
+					<div class="phone-logo-right">
+						<!--手机logo右侧上部-start-->
+						<div class="phone-logo-right-top">
+							<img src="img/phone/phone2.jpg" />
+						</div>
+						<!--手机logo右侧上部-end-->
+						<!--手机logo右侧下部-start-->
+						<div class="phone-logo-right-bottom">
+							<div class="phone-logo-right-bottom-left">
+								<img src="img/phone/phone3.jpg" />
+							</div>
+							<div class="phone-logo-right-bottom-right">
+								<img src="img/phone/phone4.jpg" />
+							</div>
+						</div>
+						<!--手机logo右侧上部-end-->
+					</div>
+					<!--手机logo右侧-end-->
+				</div>
+				<!--手机logo-end-->
+				<!--手机图片-start-->
+				<div class="phone-info">
+					<!--phoneList-start-->
+					<ul>
+						<li>
+							<!--手机图片-start-->
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/phone/phone1.png"></a>
+							</div>
+							<!--手机图片-end-->
+							<!--手机信息-start-->
+							<div class="bestsellers-info">
+								<!--手机名称-->
+								<p class="bestsellers-name">魅族 15</p>
+								<!--手机介绍-->
+								<p class="bestsellers-desc">2000万暗光双摄 智能美颜</p>
+								<!--手机价格-->
+								<p class="bestsellers-price">
+									<i>￥</i>2499<em> 起</em>
+								</p>
+							</div>
+							<!--手机信息-end-->
+						</li>
+						<li>
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/phone/phone2.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅族 15 Plus</p>
+								<p class="bestsellers-desc">定制全面屏 人机交互新体验</p>
+								<p class="bestsellers-price">
+									<i>￥</i>2999<em> 起</em>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/phone/phone3.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅族 M15</p>
+								<p class="bestsellers-desc">支持人脸识别 抬腕即解锁</p>
+								<p class="bestsellers-price">
+									<i>￥</i>1699<em> 起</em>
+								</p>
+							</div>
+						</li>
+						<li style="margin-right: 0;">
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/phone/phone4.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅族 EP2X耳机</p>
+								<p class="bestsellers-desc">契合声音的流动之美</p>
+								<p class="bestsellers-price">
+									<i>￥</i>69<em> 起</em>
+									<p>
+							</div>
+						</li>
+						<li>
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/phone/phone5.jpg"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅蓝 S6</p>
+								<p class="bestsellers-desc">5.7 英寸全面屏</p>
+								<p class="bestsellers-price">
+									<i>￥</i>999<em> 起</em>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/phone/phone6.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅蓝 Note6</p>
+								<p class="bestsellers-desc">最高直降200元 3期免息</p>
+								<p class="bestsellers-price">
+									<i>￥</i>799<em> 起</em>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/phone/phone7.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅族 PRO 7</p>
+								<p class="bestsellers-desc">领券立减100 赠耳机</p>
+								<p class="bestsellers-price">
+									<i>￥</i>1999<em> 起</em>
+									<p>
+							</div>
+						</li>
+						<li style="margin-right: 0;">
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/phone/phone8.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅蓝 E2</p>
+								<p class="bestsellers-desc">领券立减80 赠保护壳及防爆膜</p>
+								<p class="bestsellers-price">
+									<i>￥</i>899<em> 起</em>
+									<p>
+							</div>
+						</li>
+					</ul>
+					<!--phoneList-end-->
+				</div>
+				<!--手机图片-end-->
+			</div>
+			<!--手机-end-->
+			<!--配件-start-->
+			<div class="parts">
+				<!--配件title-start-->
+				<div class="parts-title">
+					<h3>智能配件</h3>
+				</div>
+				<!--配件title-end-->
+				<!--配件logo-start-->
+				<div class="phone-logo">
+					<!--配件logo左侧-start-->
+					<div class="phone-logo-left">
+						<img src="img/parts/parts1.jpg" />
+					</div>
+					<!--配件logo左侧-end-->
+					<!--配件logo右侧-start-->
+					<div class="phone-logo-right">
+						<!--配件logo右侧上部-start-->
+						<div class="phone-logo-right-top">
+							<img src="img/parts/parts2.jpg" />
+						</div>
+						<!--配件logo右侧上部-end-->
+						<!--配件logo右侧下部-start-->
+						<div class="phone-logo-right-bottom">
+							<div class="phone-logo-right-bottom-left">
+								<img src="img/parts/parts3.jpg" />
+							</div>
+							<div class="phone-logo-right-bottom-right">
+								<img src="img/parts/parts4.jpg" />
+							</div>
+						</div>
+						<!--配件logo右侧上部-end-->
+					</div>
+					<!--配件logo右侧-end-->
+				</div>
+				<!--配件logo-end-->
+				<!--配件info-start-->
+				<div class="parts-info">
+					<!--配件List-start-->
+					<ul>
+						<li>
+							<!--手机图片-start-->
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/parts/part1.png"></a>
+							</div>
+							<!--手机图片-end-->
+							<!--手机信息-start-->
+							<div class="bestsellers-info">
+								<!--手机名称-->
+								<p class="bestsellers-name">魅蓝双向移动电源</p>
+								<!--手机介绍-->
+								<p class="bestsellers-desc">新品上市 火热抢购</p>
+								<!--手机价格-->
+								<p class="bestsellers-price">
+									<i>￥</i>169<em> 起</em>
+								</p>
+							</div>
+							<!--手机信息-end-->
+						</li>
+						<li>
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/parts/part2.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅蓝20寸 酷MA萌 旅行箱</p>
+								<p class="bestsellers-desc">静音双排万向轮设计</p>
+								<p class="bestsellers-price">
+									<i>￥</i>349<em> 起</em>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/parts/part3.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅族 Flow 三单元耳机</p>
+								<p class="bestsellers-desc">用的惬意 听得尽兴</p>
+								<p class="bestsellers-price">
+									<i>￥</i>599<em> 起</em>
+								</p>
+							</div>
+						</li>
+						<li style="margin-right: 0;">
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/parts/part4.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅族 EP51蓝牙运动耳机</p>
+								<p class="bestsellers-desc">丛林绿/云雾蓝新品开售</p>
+								<p class="bestsellers-price">
+									<i>￥</i>179<em> 起</em>
+									<p>
+							</div>
+						</li>
+						<li>
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/parts/part5.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅族 EP2X耳机</p>
+								<p class="bestsellers-desc">契合声音的流动之美</p>
+								<p class="bestsellers-price">
+									<i>￥</i>69<em> 起</em>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/parts/part6.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅族智能体脂秤</p>
+								<p class="bestsellers-desc">精准的数字 才是真实的你</p>
+								<p class="bestsellers-price">
+									<i>￥</i>99<em> 起</em>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/parts/part7.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅蓝EP52蓝牙耳机</p>
+								<p class="bestsellers-desc">新品到货 限量抢购</p>
+								<p class="bestsellers-price">
+									<i>￥</i>299<em> 起</em>
+									<p>
+							</div>
+						</li>
+						<li style="margin-right: 0;">
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/parts/part8.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅族HD50 头戴式耳机</p>
+								<p class="bestsellers-desc">清新简洁，有音质更有颜值</p>
+								<p class="bestsellers-price">
+									<i>￥</i>299<em> 起</em>
+									<p>
+							</div>
+						</li>
+						<li>
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/parts/part9.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅族手环</p>
+								<p class="bestsellers-desc">腕间流动的心率专家</p>
+								<p class="bestsellers-price">
+									<i>￥</i>169<em> 起</em>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/parts/part10.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅族蓝牙小音箱</p>
+								<p class="bestsellers-desc">好音感 直达心灵</p>
+								<p class="bestsellers-price">
+									<i>￥</i>99<em> 起</em>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/parts/part11.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅蓝旅行包</p>
+								<p class="bestsellers-desc">青春正好，即刻出发</p>
+								<p class="bestsellers-price">
+									<i>￥</i>269<em> 起</em>
+									<p>
+							</div>
+						</li>
+						<li style="margin-right: 0;">
+							<div class="bestsellers-img">
+								<a href="#"><img src="img/parts/part12.png"></a>
+							</div>
+							<div class="bestsellers-info">
+								<p class="bestsellers-name">魅蓝 休闲旅行双肩包</p>
+								<p class="bestsellers-desc">曲面一体式 多功能隔层</p>
+								<p class="bestsellers-price">
+									<i>￥</i>199<em> 起</em>
+									<p>
+							</div>
+						</li>
+					</ul>
+					<!--配件List-end-->
+				</div>
+				<!--配件info-end-->
+			</div>
+			<!--配件-end-->
+		</div>
+		<!--主内容-end-->
+		<!--foot-start-->
+		<div class="foot">
+			<div class="main-footer">
+				<!--practiceLeft-start-->
+				<div class="practice">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="img/foot/foot1.png" />
+								<span>全场顺丰包邮</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/foot/foot2.png" />
+								<span>百城速达</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/foot/foot3.png" />
+								<span>7天无理由退货</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/foot/foot4.png" />
+								<span>15天换货保障</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/foot/foot5.png" />
+								<span>1年免费保修</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/foot/foot6.png" />
+								<span>线下体验店</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/foot/foot7.png" />
+								<span>远程支持服务</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/foot/foot8.png" />
+								<span>上门快修</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!--practiceLeft-end-->
+				<!--practiceRight-start-->
+				<div class="practice-right">
+					<span>周一至周日 7:30-24:00</span>
+					<p>400-788-3333</p>
+					<a href="#">
+						<img src="img/foot/foot9.png" />
+						<span>在线客服</span>
+					</a>
+				</div>
+				<hr />
+				<!--practiceRight-end-->
+				<div class="foot-bottom">
+					<!--foot-bottom-top-start-->
+					<div class="foot-bottom-top">
+						<ul>
+							<li>
+								<a href="#">了解魅族</a>
+							</li>
+							<li>
+								<a href="#">加入我们</a>
+							</li>
+							<li>
+								<a href="#">联系我们</a>
+							</li>
+							<li>
+								<a href="#">Flyme</a>
+							</li>
+							<li>
+								<a href="#">魅族社区</a>
+							</li>
+							<li>
+								<a href="#">天猫旗舰店</a>
+							</li>
+							<li>
+								<a href="#">问题反馈</a>
+							</li>
+							<li>
+								<a href="#">线上销售授权名单公示</a>
+							</li>
+							<li>
+								<span>	
+									<a href="#"> 中文</a>
+								</span>
+							</li>
+						</ul>
+					</div>
+					<!--foot-bottom-top-end-->
+					<!--foot-bottom-bottom-start-->
+					<div class="foot-bottom-bottom">
+						<ul>
+							<li>©2018 Meizu Telecom Equipment Co., Ltd. All rights reserved.</li>
+							<li>
+								<a href="#">粤ICP备13003602号</a>
+							</li>
+							<li>
+								<a href="#">合字B2-20170010 </a>
+							</li>
+							<li>
+								<a href="#">营业执照</a>
+							</li>
+							<li>
+								<a href="#">法律声明</a>
+							</li>
+							<li>粤公网安备 44049102496009 号</li>
+						</ul>
+					</div>
+					<!--foot-bottom-bottom-end-->
+				</div>
+			</div>
+		</div>
+		<!--foot-end-->
+	</body>
+
+</html>
